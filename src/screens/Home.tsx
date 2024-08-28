@@ -3,8 +3,8 @@ import { Button, Text, View } from "react-native"
 
 const Home=({navigation})=>{
     return(
-        <View>
-            <Text>Home Screen</Text>
+        <View style={{flex:1,justifyContent:'center',alignContent:'center'}}>
+            <Text style={{fontSize:30,alignItems:'center',alignSelf:'center'}}>Home Screen</Text>
             <Button  title="CLick me to move on Next screen " onPress={()=> 
                 navigation.navigate('Profile')}/>
         </View>
