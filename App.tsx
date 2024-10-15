@@ -3,6 +3,10 @@ import Home from "./src/screens/Home";
 import Login from "./src/screens/Login";
 
 
+
+
+
+
  const App=()=>{
   return(
     <Stacknavigation/>
