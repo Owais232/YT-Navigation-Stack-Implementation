@@ -4,6 +4,10 @@ import { Button, Text, View } from "react-native"
 const Profile=({navigation})=>{
     return(
         <View>
+
+
+
+            
             <Text>Profile Screen</Text>
             <Button  title="CLick on Home "
             onPress={()=> navigation.navigate('Home')}/>
